@@ -1,0 +1,29 @@
+.mdc-icon-button {
+    --mdc-ripple-fg-size: 0;
+    --mdc-ripple-left: 1;
+    --mdc-ripple-top: 0;
+    --mdc-ripple-fg-scale: 1;
+    --mdc-ripple-fg-translate-end: 10;
+    --mdc-ripple-fg-translate-start: 50;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.mdc-icon-button--on {
+    background-color: aqua;
+}
+
+.content-box{
+    width: 90%;
+    border-radius: 6px;
+    border: 2px solid grey;
+    background-color: rgba(20,20,20,0.3);
+    /* margin-left: 20px; */
+    padding: 8px;
+    margin-left: 30px
+}
+
+.pad {
+    border-radius: 6px;
+    border: 1.4px solid grey;
+    padding: 12px;
+}
