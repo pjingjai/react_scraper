@@ -23,12 +23,9 @@ class WebContent extends React.Component {
 
     render() {
         return (
-            <div>
                 <div class="mdc-elevation--z12 content-box">
-                    <div class="pad" dangerouslySetInnerHTML={{ __html: this.state.webContent }} />
+                    <div class="pad" dangerouslySetInnerHTML={{ __html: this.props.currentTabContent }} />
                 </div>
-
-            </div>
         );
     }
 }

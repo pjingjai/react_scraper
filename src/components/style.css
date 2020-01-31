@@ -9,21 +9,85 @@
 }
 
 .mdc-icon-button--on {
-    background-color: aqua;
+    background-color: #1f401e6b;
+    border-radius: 24px;
 }
 
 .content-box{
-    width: 90%;
+    width: 100%;
     border-radius: 6px;
     border: 2px solid grey;
-    background-color: rgba(20,20,20,0.3);
-    /* margin-left: 20px; */
+    background-color: rgb(238, 238, 223);
+    min-height: 100vh;
     padding: 8px;
-    margin-left: 30px
 }
 
 .pad {
     border-radius: 6px;
     border: 1.4px solid grey;
     padding: 12px;
+    min-height: 100vh;
 }
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 96%;
+    padding: 8px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    background-color: #c1b955;
+    margin-top: 12px;
+}
+
+.mdc-drawer {
+    z-index: 0;
+}
+
+:root {
+    --mdc-theme-primary: #d82557;
+    --mdc-theme-secondary: #018786;
+    --mdc-theme-background: #fff;
+    --mdc-theme-surface: #fff;
+    --mdc-theme-error: #b00020;
+    --mdc-theme-on-primary: #fff;
+    --mdc-theme-on-secondary: #fff;
+    --mdc-theme-on-surface: rgb(233, 233, 233);
+    --mdc-theme-on-error: #fff;
+    --mdc-theme-text-primary-on-background: rgba(0, 0, 0, 0.87);
+    --mdc-theme-text-secondary-on-background: rgba(0, 0, 0, 0.54);
+    --mdc-theme-text-hint-on-background: rgba(0, 0, 0, 0.38);
+    --mdc-theme-text-disabled-on-background: rgba(0, 0, 0, 0.38);
+    --mdc-theme-text-icon-on-background: rgba(0, 0, 0, 0.38);
+    --mdc-theme-text-primary-on-light: rgba(0, 0, 0, 0.87);
+    --mdc-theme-text-secondary-on-light: rgba(0, 0, 0, 0.54);
+    --mdc-theme-text-hint-on-light: rgba(0, 0, 0, 0.38);
+    --mdc-theme-text-disabled-on-light: rgba(0, 0, 0, 0.38);
+    --mdc-theme-text-icon-on-light: rgba(0, 0, 0, 0.38);
+    --mdc-theme-text-primary-on-dark: white;
+    --mdc-theme-text-secondary-on-dark: rgba(255, 255, 255, 0.7);
+    --mdc-theme-text-hint-on-dark: rgba(255, 255, 255, 0.5);
+    --mdc-theme-text-disabled-on-dark: rgba(255, 255, 255, 0.5);
+    --mdc-theme-text-icon-on-dark: rgba(255, 255, 255, 0.5);
+}
+
+div#main {
+    display: flex;
+    justify-content: center;
+}
+
+#search {
+    background-color: #ffffff00;
+}
+
+#search > label {
+    color: white;
+}
+
+#search > input {
+    color: rgb(3, 241, 83);
+    font-weight: 800;
+    font-style: italic;
+}
+
