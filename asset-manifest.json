@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/wikibrows/static/css/main.fff926c9.chunk.css",
+    "main.js": "/wikibrows/static/js/main.c716466b.chunk.js",
+    "main.js.map": "/wikibrows/static/js/main.c716466b.chunk.js.map",
+    "runtime-main.js": "/wikibrows/static/js/runtime-main.450f1cb4.js",
+    "runtime-main.js.map": "/wikibrows/static/js/runtime-main.450f1cb4.js.map",
+    "static/css/2.78096a31.chunk.css": "/wikibrows/static/css/2.78096a31.chunk.css",
+    "static/js/2.8f3b22a7.chunk.js": "/wikibrows/static/js/2.8f3b22a7.chunk.js",
+    "static/js/2.8f3b22a7.chunk.js.map": "/wikibrows/static/js/2.8f3b22a7.chunk.js.map",
+    "index.html": "/wikibrows/index.html",
+    "precache-manifest.c3174a91c40ba17849e9d96cbe746ad6.js": "/wikibrows/precache-manifest.c3174a91c40ba17849e9d96cbe746ad6.js",
+    "service-worker.js": "/wikibrows/service-worker.js",
+    "static/css/2.78096a31.chunk.css.map": "/wikibrows/static/css/2.78096a31.chunk.css.map",
+    "static/css/main.fff926c9.chunk.css.map": "/wikibrows/static/css/main.fff926c9.chunk.css.map",
+    "static/js/2.8f3b22a7.chunk.js.LICENSE": "/wikibrows/static/js/2.8f3b22a7.chunk.js.LICENSE",
+    "static/media/enwiktionary.png": "/wikibrows/static/media/enwiktionary.140f3035.png",
+    "static/media/logo.svg": "/wikibrows/static/media/logo.ee7cd8ed.svg",
+    "static/media/wikipedia.jfif": "/wikibrows/static/media/wikipedia.d3aa9e70.jfif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.450f1cb4.js",
+    "static/css/2.78096a31.chunk.css",
+    "static/js/2.8f3b22a7.chunk.js",
+    "static/css/main.fff926c9.chunk.css",
+    "static/js/main.c716466b.chunk.js"
+  ]
+}
