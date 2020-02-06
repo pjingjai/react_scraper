@@ -41,8 +41,9 @@
     margin-top: 12px;
 }
 
-.mdc-drawer {
+.mdc-drawer#sideBar {
     z-index: 0;
+    background-color: rgba(15, 15, 15, 0);
 }
 
 :root {

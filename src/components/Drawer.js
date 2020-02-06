@@ -13,7 +13,7 @@ class InfoBar extends Component {
     render() {
         return (
             this.props.visible ? (
-            <Drawer>
+            <Drawer id="sideBar">
 
                 <DrawerContent tag='main'>  {/*defaults to div*/}
                     <img src={'https://upload.wikimedia.org/wikipedia/commons/3/31/Wikimedia_Foundation_logo_-_vertical.svg'} />
